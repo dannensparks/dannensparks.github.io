@@ -3,8 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title></title>
-        <meta name="author" content="Your Name Here">
+        <title>iWeather</title>
+        <link href="/main.css" rel="stylesheet"/>
+        <meta name="author" content="Dannen Sparks">
         <meta name="description" content="page description placeholder">
         <!-- external style references in the proper cascading order -->
         <link href="https://fonts.googleapis.com/css?family=#" rel="stylesheet">  <!-- Google API font reference -->
@@ -16,9 +17,9 @@
     <body>
 
         <header>
-            <img src="images/#" alt="The site logo" width="" height="">
-            <h1>Title</h1>
-            <div class="subheading">Site Motto</div>
+            <img src="images/logo.png" alt="logo" width="100px" height="100px" class="picright">
+            <h1>iWeather</h1>
+            <h3 style='color:darkorange;text-align:center;'>Rain or shine, we'll let you know!</h3>
         </header>
 
         <!-- site navigation use placeholder references -->
@@ -35,11 +36,11 @@
         </nav>
 
         <main>
-            <h2>The City of Franklin</h2>
+            <h2 style="text-decoration:underline">The City of Franklin</h2>
             <figure>
                 <img>
             </figure>
-            <section>
+            <section style="background:lightblue; padding: 10px">
                 <h3>Weather Summary</h3>
                 <div class="highlow">
                     <p>High:</p>
@@ -60,7 +61,7 @@
             <section class="forecast">
                 <h3>10 Day Forecast</h3>
                 <table>
-                    <thead>
+                    <thead style="color: blue;">
                         <tr>
                             <th>Day 1</th>
                             <th>Day 2</th>
@@ -74,7 +75,7 @@
                             <th>Day 10</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody style="color:darkorange;">
                         <tr>
                             <td>89&deg;F</td>
                             <td>87&deg;F</td>
@@ -105,7 +106,7 @@
             <aside>
                 Contact information placeholder
             </aside>
-            <p class="footer-bar">&copy;2017 All Rights Reserved | Site Title | <span id="currentdate">Current Date Placeholder</span></p>
+            <p class="footer-bar">&copy;2017 All Rights Reserved | iWeather | <span id="currentdate">Current Date Placeholder</span></p>
         </footer>
 
         <script src="scripts/hamburger.js"></script>
