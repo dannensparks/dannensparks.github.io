@@ -35,4 +35,11 @@ logo.png{
     float:right;
     margin-left: 10px;
 }
-
+table{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+}

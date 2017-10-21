@@ -1,0 +1,45 @@
+header{
+    background: mediumblue;
+    padding: 50px 400px 50px 400px
+}
+body{
+    float: left;
+    background:gray;
+    font-family: sans-serif;
+    padding: 50px, 10px, 10px, 10px;
+    text-align: left;
+}
+h1{
+    text-align: center;
+    color: darkorange;
+    text-align: center;
+    background:lightblue;
+    padding:20px 50px 60px 50px;
+    font-size: 50px;
+    font-family: monospace;
+}
+subheading{
+    color:darkorange;
+    text-align: center
+}
+a{
+    color:blue;
+}
+
+logo.png{
+    float:right;
+    margin:10px;
+}
+
+.picright{
+    float:right;
+    margin-left: 10px;
+}
+table{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+}
