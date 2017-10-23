@@ -1,28 +1,32 @@
 header{
-    background: mediumblue;
-    padding: 50px 400px 50px 400px
+    padding: 50px 600px 0px 500px;
 }
 body{
-    float: left;
-    background:gray;
+    float: middle;
+    background-image: url(Images/franklin.jpeg);
+    background-size:100%;
     font-family: sans-serif;
     padding: 50px, 10px, 10px, 10px;
     text-align: left;
 }
+header figure.logo{
+    width: 10%;
+}
 h1{
-    text-align: center;
+    text-align:center;
     color: darkorange;
-    text-align: center;
     background:lightblue;
-    padding:20px 50px 60px 50px;
+    padding:30px 50px 40px 10px;
     font-size: 50px;
-    font-family: monospace;
+    font-family: 'Concert One', cursive;
 }
 subheading{
+    background:lightblue;
     color:darkorange;
     text-align: center
 }
 a{
+    background:lightblue;
     color:blue;
 }
 
@@ -42,4 +46,6 @@ table{
     overflow: hidden;
     background-color: #333;
 }
+h2{
+color:darkorange;
 }

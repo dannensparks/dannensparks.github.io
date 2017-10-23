@@ -1,6 +1,6 @@
 header{
     background: mediumblue;
-    padding: 50px 400px 50px 400px
+    padding: 50px 100px 50px 100px
 }
 body{
     float: left;
@@ -16,7 +16,7 @@ h1{
     background:lightblue;
     padding:50px 100px 50px 100px;
     font-size: 50px;
-
+    font-family: 'Concert One', cursive;
 }
 subheading{
     color:darkorange;
